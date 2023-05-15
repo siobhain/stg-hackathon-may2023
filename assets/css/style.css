@@ -4,7 +4,7 @@
   font-family: "Trade Gothic LT Std", sans-serif;
   font-weight: bolder;
 }
-
+/* endor */
 .fa-home {
   color: #2c4eaa;
   font-size: 40px;
@@ -899,7 +899,19 @@ cursor: pointer;
   display: block;
   border-radius: 50%;
   margin: 0 0 20px 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+ 
+.endor button {
+  size: 24px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+} 
 
 .tatooine {
   width: 291px;
